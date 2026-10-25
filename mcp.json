@@ -1,0 +1,51 @@
+{
+  "name": "vern-paxson-ai-mcp",
+  "version": "1.0.0",
+  "description": "Vern Paxson AI Model Context Protocol Server for Autonomous Network Intrusion Detection, Bro/Zeek Behavioral Telemetry, Internet Traffic Measurement & Censorship Evasion Protocol",
+  "tools": [
+    {
+      "name": "audit_network_telemetry_anomalies",
+      "description": "Perform deep packet inspection and behavioural analysis of network traffic streams to identify stealthy intrusion patterns and censorship events",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "pcap_stream_metadata": {
+            "type": "string"
+          },
+          "traffic_baseline": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "pcap_stream_metadata"
+        ]
+      }
+    },
+    {
+      "name": "disburse_intrusion_defense_grant",
+      "description": "Trigger automated micro-escrow releases for open-source Zeek script development, global censorship measurement probes, and high-throughput network monitoring research",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "category": {
+            "type": "string"
+          },
+          "recipient": {
+            "type": "string"
+          },
+          "amount_wei": {
+            "type": "string"
+          },
+          "proof_hash": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "category",
+          "recipient",
+          "amount_wei"
+        ]
+      }
+    }
+  ]
+}
